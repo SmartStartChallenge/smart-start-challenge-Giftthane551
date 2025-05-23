@@ -1,9 +1,9 @@
-﻿namespace ClassRoomBackEnd.Models
+﻿namespace Code.Model
 {
     public class Classroom
     {
         public int Id { get; set; }
-
-        // To be added
+        public string Name { get; set; }
+        public int capacity { get; set; }
     }
 }
